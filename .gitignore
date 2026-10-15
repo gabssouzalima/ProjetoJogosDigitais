@@ -1,0 +1,53 @@
+# Unity - .gitignore padrão
+# Pastas geradas automaticamente (NÃO vão pro Git)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Pacotes baixados pelo Package Manager (o manifest.json é que vai pro Git)
+/[Pp]ackages/*
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# Arquivos de IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds e crash reports
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# IMPORTANTE: NÃO ignore estes itens!
+#   *.meta                -> guardam os GUIDs (sem eles as referências quebram)
+#   Assets/TextMesh Pro/  -> fontes, shaders e materiais do TMP
+# ------------------------------------------------------------
