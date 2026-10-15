@@ -1,4 +1,4 @@
-# PROEJETO <INSIRA NOME>
+# PROJETO <INSIRA NOME>
 
 > Jogo digital desenvolvido em Unity com finalidade para a disciplina de Jogos Digitais e Sistemas Interativos da Fundação Escola de Comércio Álvares Penteado (FECAP)
 
@@ -59,8 +59,8 @@ Consumiveis Arcor/
 |------|--------|
 | Agatha Oliveira Santos |[@agathaoliveirasantos92-cpu](https://github.com/agathaoliveirasantos92-cpu) |
 | Gabriel Souza Lima | [@gabssouzalima](https://github.com/gabssouzalima) |
-| Samuel Pires | [@samuelpiresbat-sketch](https://github.com/samuelpiresbat-sketch) |
 | Rafael Morais Rocha | [@rmrafael](https://github.com/rm-rafael) |
+| Samuel Pires | [@samuelpiresbat-sketch](https://github.com/samuelpiresbat-sketch) |
 
 ## 📄 Licença
 
