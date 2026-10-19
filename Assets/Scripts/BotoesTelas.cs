@@ -1,29 +1,30 @@
+
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Script simples com os 3 botões: Jogar, Jogar Novamente e Menu.
-// Não depende de nenhum outro script.
-public class BotoesTelas : MonoBehaviour
+public class GameOverManager : MonoBehaviour
 {
-    // sem mexer no código. Têm que ser IGUAIS ao nome da cena no Unity.
-    public string nomeCenaMenu = "TelaDeInicio";
-    public string nomeCenaJogo = "Fase1";
+    [SerializeField] private TextMeshProUGUI textoKills;
 
-    // Botão JOGAR (cena do menu)
-    public void Jogar()
+    private void Start()
     {
-        SceneManager.LoadScene(nomeCenaJogo);
+        if (textoKills != null)
+        {
+            textoKills.text =
+                "Zumbis eliminados: " + KillCounter.TotalKills;
+        }
     }
 
-    // Botão JOGAR NOVAMENTE (cena de Game Over)
-    public void JogarNovamente()
+    private void Update()
     {
-        SceneManager.LoadScene(nomeCenaJogo);
-    }
+        if (Input.GetKeyDown(KeyCode.Return) ||
+            Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            if (KillCounter.Instance != null)
+                KillCounter.Instance.ReiniciarContador();
 
-    // Botão MENU (cena de conclusão)
-    public void VoltarAoMenu()
-    {
-        SceneManager.LoadScene(nomeCenaMenu);
+            SceneManager.LoadScene("Fase1");
+        }
     }
 }
