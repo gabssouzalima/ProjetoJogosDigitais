@@ -1,4 +1,4 @@
-# PROJETO <INSIRA NOME>
+# PROJETO ZOMBIE RUN
 
 > Jogo digital desenvolvido em Unity com finalidade para a disciplina de Jogos Digitais e Sistemas Interativos da Fundação Escola de Comércio Álvares Penteado (FECAP)
 
@@ -6,9 +6,9 @@
 
 ## Sobre o projeto
 
-**Projeto Insira Nome** é um projeto de Jogos Digitais criado como parte da disciplina **Jogos Digitais e Sistemas Interativos**.
+**Projeto Zombie Run** é um projeto de Jogos Digitais criado como parte da disciplina **Jogos Digitais e Sistemas Interativos**.
 
-**Breve Resumo do Jogo**
+**Projeto Zombie Run é um jogo digital desenvolvido em Unity 6 no qual o jogador enfrenta zumbis em uma experiência de sobrevivência e ação. O objetivo é eliminar a maior quantidade de zumbis possíveis antes que a vida do jogador acabe.**
 
 ## 🛠️ Tecnologias
 
@@ -19,7 +19,7 @@
 ## 📁 Estrutura do repositório
 
 ```
-Consumiveis Arcor/
+ProjetoJogoDigital/
 ├── Assets/
 │   ├── Materials/      # Materiais 
 │   ├── Scenes/         # Cenas do jogo (SampleScene)
@@ -49,7 +49,7 @@ Consumiveis Arcor/
 2. Abra o **Unity Hub** e clique em **Add → Add project from disk**.
 3. Selecione a pasta do projeto clonado. Se o Hub pedir, instale a versão da Unity indicada.
 4. Aguarde a importação dos assets. A primeira abertura pode demorar, pois a pasta `Library/` é gerada localmente.
-5. Abra a cena `Assets/Scenes/SampleScene.unity`.
+5. Abra a cena `Assets/Scenes/TelaInicio`.
 6. Clique em **Play**.
 
 
@@ -64,8 +64,12 @@ Consumiveis Arcor/
 
 ## 📄 Licença
 
-[Definir licença]
+Este projeto está licenciado sob a licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).
 
----
+Você tem permissão para compartilhar e adaptar o material deste projeto, inclusive para fins comerciais, desde que forneça a devida atribuição aos autores originais, indique a licença utilizada e informe se foram realizadas modificações.
 
-<sub>Projeto acadêmico de Jogos Digitais.</sub>
+A licença não concede automaticamente direitos sobre materiais de terceiros, marcas, bibliotecas ou outros recursos que estejam sujeitos a licenças próprias.
+
+Para consultar os termos completos, acesse: https://creativecommons.org/licenses/by/4.0/
+
+<sub>Projeto acadêmico desenvolvido para a disciplina de Jogos Digitais e Sistemas Interativos da Fundação Escola de Comércio Álvares Penteado (FECAP).</sub>
