@@ -6,8 +6,6 @@
 
 ## Sobre o projeto
 
-**Projeto Zombie Run** é um projeto de Jogos Digitais criado como parte da disciplina **Jogos Digitais e Sistemas Interativos**.
-
 **Projeto Zombie Run é um jogo digital desenvolvido em Unity 6 no qual o jogador enfrenta zumbis em uma experiência de sobrevivência e ação. O objetivo é eliminar a maior quantidade de zumbis possíveis antes que a vida do jogador acabe.**
 
 ## 🛠️ Tecnologias
